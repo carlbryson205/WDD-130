@@ -1,0 +1,63 @@
+body {
+    padding: 45px;
+    border: 2px solid black;
+    margin: 20px;
+    max-width: 500px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left {
+    justify-self: start;
+}
+
+.middle {
+    text-align: center;
+}
+
+.right {
+    justify-self: end;
+    margin-top: 30px;
+}
+
+.profile_pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border-color: black;
+}
+
+.photo {
+    width: 500px;
+    margin-top: 30px;
+}
+
+
+.large_top {
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+
+.large_bottom {
+    margin-top: 30px;
+    margin-right: 20px;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+}
+
+.right_bottom {
+    margin-top: 0;
+    margin-right: 0px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}

@@ -1,0 +1,28 @@
+body {
+    background-color: darkslateblue;
+    color: wheat;
+}
+
+h1 {
+    color: snow;
+    background-color: black;
+    padding: 60;
+
+}
+
+p {
+    background-color: cadetblue;
+    color: black;
+    padding: 15;
+}
+
+.flavors {
+    background-color: blue;
+    font-style: italic;
+    color: yellow;
+}
+
+#cultures {
+    font-weight: bold;
+    color: orange;
+}

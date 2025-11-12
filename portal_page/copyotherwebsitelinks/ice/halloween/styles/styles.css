@@ -1,0 +1,65 @@
+body {
+
+    background: linear-gradient(to bottom, #1a0090, #1c1c1c);
+    text-align: center;
+    width: auto;
+    padding-right: 400px;
+    padding-left: 400px;
+    font-style: italic;
+    color: orange;
+    font-family: 'Creepster', cursive;
+    font-weight: lighter;
+}
+
+ul {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    list-style-type: none;
+    text-align: center;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 0 auto;
+    margin: 0 auto;
+    color: white;
+}
+
+li:hover {
+    color: red;
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+h1,
+li {
+    text-shadow: 0 0 10px orange, 0 0 20px red;
+}
+
+
+@keyframes wiggle {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    25% {
+        transform: rotate(2deg);
+    }
+
+    75% {
+        transform: rotate(-2deg);
+    }
+}
+
+h1:hover,
+h2:hover {
+    animation: wiggle 0.3s ease-in-out infinite;
+}
