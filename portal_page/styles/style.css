@@ -1,0 +1,26 @@
+body {
+    margin: auto;
+    background-color: #f0ece4;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header img {
+    width: 200px;
+}
+
+nav a {
+    text-align: center;
+    color: #03045E;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav {
+    columns: 1/3;
+}
+
+img {}
