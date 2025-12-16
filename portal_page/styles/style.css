@@ -4,6 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    font-family: "Courier New", Courier, monospace;
 }
 
 
@@ -38,6 +39,8 @@ nav {
     align-items: center;
     justify-content: center;
     gap: 60px;
+    margin: 50px;
+    margin-top: 25px;
 }
 
 
@@ -51,9 +54,34 @@ nav a:not(:last-child)::after {
 
 
 
+main {
+    padding-left: 150px;
+    padding-right: 150px;
+    font-weight: bolder;
+}
+
+ul {
+    list-style-type: "◆  ";
+    /* fancy bullet */
+    padding-left: 1.2rem;
+}
+
+ul li::marker {
+    color: #03045E;
+}
+
+ul li {
+    line-height: 1.5;
+}
+
+
 
 
 footer {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 50px;
+    padding-top: 0px;
     display: flex;
     gap: 50px;
 }
